@@ -56,9 +56,9 @@ const SocialConnect = () => {
               <span className="icon-label">Email</span>
             </a>
           </div>
-          <div className="text-center mt-12">
-            <p className="text-xl font-semibold text-yellow-300">Coming Soon</p>
-          </div>
+        </div>
+        <div className="text-center mt-8">
+          <p className="text-xl font-semibold text-yellow-300">Coming Soon</p>
         </div>
       </div>
       
