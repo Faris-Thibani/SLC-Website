@@ -1,13 +1,7 @@
 'use client';
 
-import { SmoothScrollHero } from '@/components/ui/modern-hero';
-import { Navbar } from '@/components/ui/navbar-demo';
+import { SocialConnect } from '@/components/ui/connect-with-us';
 
 export default function Home() {
-  return (
-    <>
-      <Navbar className="top-2" />
-      <SmoothScrollHero />
-    </>
-  );
+  return <SocialConnect />;
 }
