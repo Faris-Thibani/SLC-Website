@@ -18,7 +18,7 @@ const SocialConnect = () => {
       <div className="relative w-full max-w-2xl">
         {/* 3D Glowing Container */}
         <div 
-          className={`rounded-3xl bg-gradient-to-br from-gray-800/80 to-gray-900/90 border border-gray-700/50 shadow-2xl backdrop-blur-3xl overflow-hidden p-8 transition-all duration-500 hover:scale-105`}
+          className={`rounded-3xl bg-gradient-to-br from-gray-800/80 to-gray-900/90 border border-gray-700/50 shadow-2xl backdrop-blur-3xl overflow-hidden px-12 py-16 transition-all duration-500 hover:scale-105`}
           style={{
             boxShadow:  '0 0 50px rgba(250, 204, 21, 0.6), 0 0 80px rgba(217, 119, 6, 0.4)'
           }}
@@ -55,6 +55,9 @@ const SocialConnect = () => {
               </div>
               <span className="icon-label">Email</span>
             </a>
+          </div>
+          <div className="text-center mt-12">
+            <p className="text-xl font-semibold text-yellow-300">Coming Soon</p>
           </div>
         </div>
       </div>
