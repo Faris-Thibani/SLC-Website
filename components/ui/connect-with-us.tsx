@@ -23,7 +23,7 @@ const SocialConnect = () => {
             boxShadow:  '0 0 50px rgba(250, 204, 21, 0.6), 0 0 80px rgba(217, 119, 6, 0.4)'
           }}
         >
-          <div className="flex flex-wrap justify-center gap-8 pt-12">
+          <div className="flex flex-wrap justify-center gap-8 pt-12" style={{ paddingTop: '15px', paddingBottom: '15px' }}>
             {/* EDIT LINKEDIN LINK BELOW - Replace href with your LinkedIn profile URL */}
             <a href="https://www.linkedin.com/company/street-lights-co-ltd" target="_blank" rel="noopener noreferrer" className="social-icon linkedin">
               <div className="icon-container">
