@@ -23,8 +23,9 @@ const SocialConnect = () => {
             boxShadow:  '0 0 50px rgba(250, 204, 21, 0.6), 0 0 80px rgba(217, 119, 6, 0.4)'
           }}
         >
-          <div className="flex flex-wrap justify-center gap-8">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon linkedin">
+          <div className="flex flex-wrap justify-center gap-8 pt-4">
+            {/* EDIT LINKEDIN LINK BELOW - Replace href with your LinkedIn profile URL */}
+            <a href="https://www.linkedin.com/company/street-lights-co-ltd" target="_blank" rel="noopener noreferrer" className="social-icon linkedin">
               <div className="icon-container">
                 <svg
                   viewBox="0 0 24 24"
@@ -40,7 +41,8 @@ const SocialConnect = () => {
               <span className="icon-label">LinkedIn</span>
             </a>
             
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon instagram">
+            {/* EDIT INSTAGRAM LINK BELOW - Replace href with your Instagram profile URL */}
+            <a href="https://www.instagram.com/streetlightsco.ltd/" target="_blank" rel="noopener noreferrer" className="social-icon instagram">
               <div className="icon-container">
                 <svg
                   viewBox="0 0 24 24"
@@ -49,14 +51,15 @@ const SocialConnect = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M12 0C5.372 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                    d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.521 17.05c-1.224 2.058-3.579 3.367-6.21 3.367-3.897 0-7.055-3.158-7.055-7.055 0-2.631 1.309-4.986 3.367-6.21.622-.571 1.14-1.237 1.14-2.204 0-.966-.518-1.633-1.14-2.204C6.309 5.309 5.527 3.954 5.527 2.38c0-.656.252-1.288.715-1.778.463-.49 1.095-.74 1.751-.74.656 0 1.288.25 1.778.715.49.463.74 1.095.74 1.751 0 .657-.25 1.288-.714 1.778-.464.49-1.095.74-1.751.74-.657 0-1.288-.25-1.778-.714-.49-.464-.74-1.096-.74-1.752 0-.657.25-1.289.714-1.778.464-.49 1.096-.74 1.752-.74.657 0 1.289.25 1.778.715.49.463.74 1.095.74 1.751 0 .966-.518 1.633-1.14 2.204-1.224 1.224-1.978 2.922-1.978 4.806 0 3.897 3.158 7.055 7.055 7.055 2.631 0 4.986-1.309 6.21-3.367"
                   ></path>
                 </svg>
               </div>
               <span className="icon-label">Instagram</span>
             </a>
             
-            <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="social-icon whatsapp">
+            {/* EDIT WHATSAPP LINK BELOW - Replace phone number in wa.me/1234567890 format */}
+            <a href="https://wa.me/966583270682" target="_blank" rel="noopener noreferrer" className="social-icon whatsapp">
               <div className="icon-container">
                 <svg
                   viewBox="0 0 24 24"
@@ -72,7 +75,8 @@ const SocialConnect = () => {
               <span className="icon-label">WhatsApp</span>
             </a>
             
-            <a href="mailto:contact@streetlights.com" className="social-icon email">
+            {/* EDIT EMAIL LINK BELOW - Replace the email address with your contact email */}
+            <a href="mailto:streetlights.ksa@hotmail.com" className="social-icon email">
               <div className="icon-container">
                 <svg
                   viewBox="0 0 24 24"
